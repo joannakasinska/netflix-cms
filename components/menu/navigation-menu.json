@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_navigation_menus",
+  "info": {
+    "name": "Navigation Menu",
+    "icon": "map-signs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation-link"
+    }
+  }
+}

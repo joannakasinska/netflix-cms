@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_navigation_navigation_links",
+  "info": {
+    "name": "Navigation Link",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "path": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "aria": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "actionId": {
+      "type": "string"
+    }
+  }
+}

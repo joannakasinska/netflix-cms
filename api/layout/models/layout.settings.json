@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "layouts",
+  "info": {
+    "name": "Layout",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headerNavigationMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.navigation-menu"
+    },
+    "headerSearch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "headerChildrenSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navigation.navigation-link"
+    },
+    "headerNotification": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "headerSettingsMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.settings-menu"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_menu_settings_menus",
+  "info": {
+    "name": "Settings Menu",
+    "icon": "tools",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "accountsMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation-link"
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation-link"
+    },
+    "logout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}
